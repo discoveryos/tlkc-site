@@ -12,4 +12,4 @@
     \x1b[32m$ ln -s bash root/bin/sh\x1b[0m
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Build core utils: \x1b[1;33mcurl tlkc.sh/ch5\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Build core utils: \x1b[1;33mcurl tlkc.vercel.app/ch5\x1b[0m

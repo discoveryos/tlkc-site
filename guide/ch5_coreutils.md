@@ -10,4 +10,4 @@
     \x1b[32m$ make -j8 && make DESTDIR=$TLKC install && cd ..\x1b[0m
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Build system tools: \x1b[1;33mcurl tlkc.sh/ch6\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Build system tools: \x1b[1;33mcurl tlkc.vercel.app/ch6\x1b[0m

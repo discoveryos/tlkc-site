@@ -31,4 +31,4 @@ Grab a lightweight clone of the official Linux tree and spawn your initial basel
     \x1b[32m$ make menuconfig\x1b[0m
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Review detailed driver modifications: \x1b[1;33mcurl tlkc.sh/ch2\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Review detailed driver modifications: \x1b[1;33mcurl tlkc.vercel.app/ch2\x1b[0m

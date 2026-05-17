@@ -12,4 +12,4 @@
     \x1b[32m$ ldconfig -v -r ./\x1b[0m
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Build execution script: \x1b[1;33mcurl tlkc.sh/ch10\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Build execution script: \x1b[1;33mcurl tlkc.vercel.app/ch10\x1b[0m

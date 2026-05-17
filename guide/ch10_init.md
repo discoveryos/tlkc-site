@@ -13,4 +13,4 @@ Paste inside:
     \x1b[32m$ chmod +x sbin/init && cd ..\x1b[0m
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Package onto drive image: \x1b[1;33mcurl tlkc.sh/ch11\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Package onto drive image: \x1b[1;33mcurl tlkc.vercel.app/ch11\x1b[0m

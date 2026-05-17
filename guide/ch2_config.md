@@ -51,4 +51,4 @@ dynamically spin up drivers on real hardware.
 Once configured, select <Save> to overwrite your file configuration and exit.
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Compile and deploy into your rootfs: \x1b[1;33mcurl tlkc.sh/ch3\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Compile and deploy into your rootfs: \x1b[1;33mcurl tlkc.vercel.app/ch3\x1b[0m

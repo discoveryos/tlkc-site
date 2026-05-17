@@ -9,4 +9,4 @@
     \x1b[32m$ make -j8 && make DESTDIR=$TLKC install && cd ..\x1b[0m
 
 ----------------------------------------------------------------------
-\x1b[1;32mNext Up:\x1b[0m Configure terminal screen libs: \x1b[1;33mcurl tlkc.sh/ch9\x1b[0m
+\x1b[1;32mNext Up:\x1b[0m Configure terminal screen libs: \x1b[1;33mcurl tlkc.vercel.app/ch9\x1b[0m
