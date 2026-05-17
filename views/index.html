@@ -11,20 +11,57 @@
             color: #c9d1d9;
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
             padding: 2rem;
-            max-width: 750px;
+            max-width: 900px;
             margin: 0 auto;
             line-height: 1.5;
         }
         .logo { color: #58a6ff; white-space: pre; font-weight: bold; margin-bottom: 1rem; }
-        h1 { color: #56d364; font-size: 1.6rem; margin: 0 0 0.25rem 0; }
-        .credits { color: #8b949e; font-size: 0.85rem; margin-bottom: 2rem; }
+        h1 { color: #56d364; font-size: 1.8rem; margin: 0 0 0.25rem 0; }
+        .credits { color: #8b949e; font-size: 0.85rem; margin-bottom: 2rem; border-bottom: 1px solid #30363d; padding-bottom: 1rem; }
+        
         .terminal-info {
             background-color: #161b22;
             border: 1px solid #30363d;
             padding: 1.5rem;
             border-radius: 6px;
+            margin-bottom: 2rem;
         }
         code { background-color: #21262d; padding: 0.2rem 0.4rem; border-radius: 4px; color: #ff7b72; font-size: 0.9em; }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .grid-container { grid-template-columns: 1fr; }
+        }
+        
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 1.5rem;
+        }
+        .card h3 { margin-top: 0; padding-bottom: 0.5rem; border-bottom: 1px solid #30363d; }
+        .basic-header { color: #58a6ff; }
+        .advanced-header { color: #d2a8ff; }
+        
+        ul { list-style: none; padding-left: 0; margin-bottom: 0; }
+        li { margin-bottom: 0.75rem; font-size: 0.9rem; }
+        li code { color: #79c0ff; display: inline-block; margin-right: 0.5rem; }
+        .future-ch { color: #8b949e; font-style: italic; }
+        
+        .badge {
+            background-color: #21262d;
+            color: #8b949e;
+            font-size: 0.75rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 10px;
+            border: 1px solid #30363d;
+            float: right;
+            margin-top: 2px;
+        }
     </style>
 </head>
 <body>
@@ -37,8 +74,44 @@
 <div class="credits">Made by Kevin & Mathew | Discovery Open Source Software Foundation</div>
 
 <div class="terminal-info">
-    <p>This handbook is fully optimized to be read straight inside your terminal infrastructure. Fire up a command line terminal and run:</p>
+    <p>This entire blueprint infrastructure is optimized for command-line access. Query the matrix pipeline natively right inside your terminal:</p>
     <code>curl https://vercel.app</code>
+</div>
+
+<div class="grid-container">
+    <!-- TLKC Basic Section -->
+    <div class="card">
+        <h3 class="basic-header">🟢 TLKC Basic <span class="badge">Ch 1 - 11</span></h3>
+        <p>Construct a baseline operating environment layout. Covers system architecture definitions, toolchains, base userland programs, root filesystem layers, and virtual storage drive deployments.</p>
+        <ul>
+            <li><code>curl tlkc.vercel.app/ch1</code> Prerequisites & Layout</li>
+            <li><code>curl tlkc.vercel.app/ch2</code> Driver Customisation</li>
+            <li><code>curl tlkc.vercel.app/ch3</code> Build & Stage bzImage</li>
+            <li><code>curl tlkc.vercel.app/ch4</code> Compiling GNU Bash</li>
+            <li><code>curl tlkc.vercel.app/ch5</code> Compiling GNU Coreutils</li>
+            <li><code>curl tlkc.vercel.app/ch6</code> Compiling util-linux</li>
+            <li><code>curl tlkc.vercel.app/ch7</code> Compiling GNU nano</li>
+            <li><code>curl tlkc.vercel.app/ch8</code> Compiling glibc Runtime</li>
+            <li><code>curl tlkc.vercel.app/ch9</code> Terminal Handling (ncurses)</li>
+            <li><code>curl tlkc.vercel.app/ch10</code> System Initialization (init)</li>
+            <li><code>curl tlkc.vercel.app/ch11</code> Disk Image Allocation & GRUB</li>
+        </ul>
+    </div>
+
+    <!-- TLKC Advanced Section -->
+    <div class="card">
+        <h3 class="advanced-header">🔥 TLKC Advanced <span class="badge">Ch 12+</span></h3>
+        <p>Scale your custom Linux distribution to production standards. These upcoming advanced modules will expand into system optimization, networking structures, and security layers.</p>
+        <ul>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch12</code> Chapter 12 (Coming Soon)</li>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch13</code> Chapter 13 (Coming Soon)</li>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch14</code> Chapter 14 (Coming Soon)</li>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch15</code> Chapter 15 (Coming Soon)</li>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch16</code> Chapter 16 (Coming Soon)</li>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch17</code> Chapter 17 (Coming Soon)</li>
+            <li class="future-ch"><code>curl tlkc.vercel.app/ch18</code> Chapter 18 (Coming Soon)</li>
+        </ul>
+    </div>
 </div>
 
 </body>
