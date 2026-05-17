@@ -1,0 +1,79 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/intro.md"
+    },
+    {
+      "source": "/ch1",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch1_prep.md"
+    },
+    {
+      "source": "/ch2",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch2_config.md"
+    },
+    {
+      "source": "/ch3",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch3_compile.md"
+    },
+    {
+      "source": "/ch4",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch4_bash.md"
+    },
+    {
+      "source": "/ch5",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch5_coreutils.md"
+    },
+    {
+      "source": "/ch6",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch6_util_linux.md"
+    },
+    {
+      "source": "/ch7",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch7_nano.md"
+    },
+    {
+      "source": "/ch8",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch8_glibc.md"
+    },
+    {
+      "source": "/ch9",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch9_ncurses.md"
+    },
+    {
+      "source": "/ch10",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch10_init.md"
+    },
+    {
+      "source": "/ch11",
+      "has": [{ "type": "header", "key": "user-agent", "value": ".*curl.*" }],
+      "destination": "/guide/ch11_disk.md"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/views/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/guide/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}

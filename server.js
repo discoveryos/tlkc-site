@@ -42,6 +42,7 @@ app.get('/ch8', (req, res) => getChapter(req, res, 'ch8_glibc.md'));
 app.get('/ch9', (req, res) => getChapter(req, res, 'ch9_ncurses.md'));
 app.get('/ch10', (req, res) => getChapter(req, res, 'ch10_init.md'));
 app.get('/ch11', (req, res) => getChapter(req, res, 'ch11_disk.md'));
+app.get("/ch12", (req, res) => getChapter(req, res, "ch12_internet.md"));
 
 app.listen(PORT, () => {
     console.log(`[+] TLKC production engine active on port ${PORT}`);
