@@ -21,5 +21,6 @@ compile a completely tailored kernel entirely from source code.
     curl tlkc.vercel.app/ch9   - Chapter 9: Compiling Interface Libraries (Ncurses)
     curl tlkc.vercel.app/ch10  - Chapter 10: Writing System Init
     curl tlkc.vercel.app/ch11  - Chapter 11: Disk Provisioning & GRUB Deploy
+    curl tlkc.vercel.app/ch12  - Chapter 12: Internet From Scratch & iproute2
 
 \x1b[90mRun any target shortcut from the list above to begin mapping your pipeline.\x1b[0m
